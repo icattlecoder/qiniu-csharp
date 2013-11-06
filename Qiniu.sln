@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{C14A7752-ED21-4721-845D-F2D6D9CA573F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QiniuWebDemo", "QiniuWebDemo\QiniuWebDemo.csproj", "{225F6E2C-1955-4B0A-B29D-F4A4C9436D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QiniuCMDDemo", "QiniuWebDemo\QiniuCMDDemo\QiniuCMDDemo.csproj", "{687858FD-E8CD-49DB-8336-73ADA95DCB28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDK", "SDK", "{7732B483-9EDD-445D-818A-1C909933060A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qiniu.Local", "QiniuClient\Qiniu.Local.csproj", "{9D2D49E9-E199-4FD7-A361-5BDBE8A9EC83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qiniu.Cloud", "QiniuCloud\Qiniu.Cloud.csproj", "{F2D20ED6-2F9B-4DF4-9AEC-EF8529F7223E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qiniu.Common", "QiniuCommon\Qiniu.Common.csproj", "{590BDA41-DF36-4479-B4CB-DE15CCB437A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{225F6E2C-1955-4B0A-B29D-F4A4C9436D66}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{225F6E2C-1955-4B0A-B29D-F4A4C9436D66}.Debug|x86.Build.0 = Debug|Any CPU
+		{225F6E2C-1955-4B0A-B29D-F4A4C9436D66}.Release|x86.ActiveCfg = Release|Any CPU
+		{225F6E2C-1955-4B0A-B29D-F4A4C9436D66}.Release|x86.Build.0 = Release|Any CPU
+		{590BDA41-DF36-4479-B4CB-DE15CCB437A2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{590BDA41-DF36-4479-B4CB-DE15CCB437A2}.Debug|x86.Build.0 = Debug|Any CPU
+		{590BDA41-DF36-4479-B4CB-DE15CCB437A2}.Release|x86.ActiveCfg = Release|Any CPU
+		{590BDA41-DF36-4479-B4CB-DE15CCB437A2}.Release|x86.Build.0 = Release|Any CPU
+		{687858FD-E8CD-49DB-8336-73ADA95DCB28}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{687858FD-E8CD-49DB-8336-73ADA95DCB28}.Debug|x86.Build.0 = Debug|Any CPU
+		{687858FD-E8CD-49DB-8336-73ADA95DCB28}.Release|x86.ActiveCfg = Release|Any CPU
+		{687858FD-E8CD-49DB-8336-73ADA95DCB28}.Release|x86.Build.0 = Release|Any CPU
+		{9D2D49E9-E199-4FD7-A361-5BDBE8A9EC83}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9D2D49E9-E199-4FD7-A361-5BDBE8A9EC83}.Debug|x86.Build.0 = Debug|Any CPU
+		{9D2D49E9-E199-4FD7-A361-5BDBE8A9EC83}.Release|x86.ActiveCfg = Release|Any CPU
+		{9D2D49E9-E199-4FD7-A361-5BDBE8A9EC83}.Release|x86.Build.0 = Release|Any CPU
+		{F2D20ED6-2F9B-4DF4-9AEC-EF8529F7223E}.Debug|x86.ActiveCfg = Debug|x86
+		{F2D20ED6-2F9B-4DF4-9AEC-EF8529F7223E}.Debug|x86.Build.0 = Debug|x86
+		{F2D20ED6-2F9B-4DF4-9AEC-EF8529F7223E}.Release|x86.ActiveCfg = Release|x86
+		{F2D20ED6-2F9B-4DF4-9AEC-EF8529F7223E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{225F6E2C-1955-4B0A-B29D-F4A4C9436D66} = {C14A7752-ED21-4721-845D-F2D6D9CA573F}
+		{687858FD-E8CD-49DB-8336-73ADA95DCB28} = {C14A7752-ED21-4721-845D-F2D6D9CA573F}
+		{9D2D49E9-E199-4FD7-A361-5BDBE8A9EC83} = {7732B483-9EDD-445D-818A-1C909933060A}
+		{F2D20ED6-2F9B-4DF4-9AEC-EF8529F7223E} = {7732B483-9EDD-445D-818A-1C909933060A}
+		{590BDA41-DF36-4479-B4CB-DE15CCB437A2} = {7732B483-9EDD-445D-818A-1C909933060A}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = QiniuWebDemo\QiniuWebDemo.csproj
+	EndGlobalSection
+EndGlobal

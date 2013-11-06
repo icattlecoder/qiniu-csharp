@@ -1,0 +1,57 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QiniuCloud/Conf.cs">
+    <Files>
+      <File FileName="QiniuCloud/QiniuCloudFileManger.cs" Line="121" Column="1" />
+      <File FileName="QiniuWebDemo/QiniuCMDDemo/Main.cs" Line="9" Column="2" />
+      <File FileName="QiniuCloud/QiniuCloudEntry.cs" Line="1" Column="1" />
+      <File FileName="QiniuClient/QiniuLocalEntry.cs" Line="1" Column="1" />
+      <File FileName="QiniuCloud/QiniuAuthWebClient.cs" Line="59" Column="1" />
+      <File FileName="QiniuCloud/Auth/Mac.cs" Line="1" Column="1" />
+      <File FileName="QiniuWebDemo/QiniuCMDDemo/app.config" Line="10" Column="17" />
+      <File FileName="QiniuCloud/Conf.cs" Line="30" Column="4" />
+      <File FileName="QiniuCloud/PutPolicy.cs" Line="110" Column="31" />
+      <File FileName="QiniuWebDemo/web.config" Line="33" Column="46" />
+      <File FileName="QiniuWebDemo/Global.asax.cs" Line="15" Column="1" />
+      <File FileName="QiniuWebDemo/CloudFileManger.aspx" Line="5" Column="24" />
+      <File FileName="QiniuWebDemo/Token.ashx" Line="1" Column="1" />
+      <File FileName="QiniuWebDemo/Token.ashx.cs" Line="17" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Demo" expanded="True">
+            <Node name="QiniuWebDemo" expanded="True" />
+          </Node>
+          <Node name="SDK" expanded="True">
+            <Node name="Qiniu.Cloud" expanded="True">
+              <Node name="Conf.cs" selected="True" />
+            </Node>
+            <Node name="Qiniu.Local" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/icattlecoder/Projects/Qiniu/QiniuWebDemo/QiniuCMDDemo/Main.cs" line="13" column="1" />
+      <Breakpoint file="/Users/icattlecoder/Projects/Qiniu/QiniuCloud/QiniuCloudFileManger.cs" line="120" column="1" />
+      <Breakpoint file="/Users/icattlecoder/Projects/Qiniu/QiniuCloud/Conf.cs" line="39" column="1" />
+      <Breakpoint file="/Users/icattlecoder/Projects/Qiniu/QiniuCloud/QiniuAuthWebClient.cs" line="52" column="1" />
+      <Breakpoint file="/Users/icattlecoder/Projects/Qiniu/QiniuWebDemo/Token.ashx.cs" line="19" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../qiniu/csharp-sdk/Qiniu.Test/QiniuTestBase.cs" line="28" offsetX="903" offsetY="405" expression="hb" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
